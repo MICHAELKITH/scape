@@ -24,16 +24,17 @@ export const OrgSidebar = () => {
       <Link href="/">
         <div className="flex items-center gap-x-2">
           <Image
-            src="/logo.svg"
+            src="/logo-no-background.svg"
             alt="Logo"
             height={60}
             width={60}
+            style={{ borderRadius: "0%" }}
           />
           <span className={cn(
             "font-semibold text-2xl",
             font.className,
           )}>
-            Board
+            ZebScape
           </span>
         </div>
       </Link>
@@ -67,7 +68,7 @@ export const OrgSidebar = () => {
         >
           <Link href="/">
             <LayoutDashboard className="h-4 w-4 mr-2" />
-            Team boards
+            Team Space
           </Link>
         </Button>
         <Button
@@ -81,7 +82,7 @@ export const OrgSidebar = () => {
             query: { favorites: true }
           }}>
             <Star className="h-4 w-4 mr-2" />
-            Favorite boards
+            Recent Space
           </Link>
         </Button>
       </div>

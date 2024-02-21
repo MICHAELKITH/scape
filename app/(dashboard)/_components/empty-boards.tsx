@@ -37,7 +37,7 @@ export const EmptyBoards = () => {
         alt="Empty"
       />
       <h2 className="text-2xl font-semibold mt-6">
-        Create your first board!
+        Create your first Space!
       </h2>
       <p className="text-muted-foreground textg-sm mt-2">
         Start by creating a board for your organization
