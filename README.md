@@ -1,10 +1,9 @@
-# Build a Real-Time Miro Clone With Nextjs, React, Tailwind (2024)
+# Build a Real-Time Scape With Nextjs, React, Tailwind (2024)
 
 
 
 This is a repository for a Build a Real-Time Scape With Nextjs, React, Tailwind (2024).
 
-[VIDEO TUTORIAL]()
 
 Features:
 
@@ -28,7 +27,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git 
+git clone https://github.com/MICHAELKITH/scape.git
 ```
 
 ### Install packages
